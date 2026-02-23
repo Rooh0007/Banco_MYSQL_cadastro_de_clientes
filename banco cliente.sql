@@ -20,3 +20,6 @@ create table clientes(
  update clientes
  set nome = 'theo galerani'
  where id = 2;
+ 
+ select nome, email from clientes;
+ select telefone from clientes;
