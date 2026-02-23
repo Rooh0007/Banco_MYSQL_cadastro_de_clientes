@@ -13,3 +13,10 @@ create table clientes(
  ('theo teofilo','theo@gmail.com','+55 11 5050-5050'),
  ('theina teofilo','theina@hotmail.com','+55 13 1010-2020'),
  ('clarice galerani','clarice@hotmail.com','+55 13 2525-3535');
+ 
+ delete from clientes
+ where id = 1;
+ 
+ update clientes
+ set nome = 'theo galerani'
+ where id = 2;
